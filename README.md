@@ -6,3 +6,6 @@
 
 p.152 `use clap::Clap`を`use clap::Parser`、`#[derive(Clap, ...)]`を`#[derive(Parser, ...)]`に変更。
 
+#### 第5章
+
+Cargo.tomlで`actix-rt`を1.1.1にしないと動かない。
