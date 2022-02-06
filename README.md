@@ -9,3 +9,5 @@ p.152 `use clap::Clap`を`use clap::Parser`、`#[derive(Clap, ...)]`を`#[derive
 #### 第5章
 
 Cargo.tomlで`actix-rt`を1.1.1にしないと動かない。
+
+sqlite3が入っていない場合は`sudo apt install libsqlite3-dev`でsqlite3を導入
